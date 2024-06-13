@@ -1,0 +1,4 @@
+cài pyarrow
+
+Thực thi job spark
+docker-compose exec spark ./spark/bin/spark-submit --master spark://spark:7077 /code/src.py

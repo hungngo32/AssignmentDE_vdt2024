@@ -2,7 +2,7 @@
 <template encoding-version="1.3">
     <description></description>
     <groupId>c58d2a97-018f-1000-e929-ec7553691655</groupId>
-    <name>vdt</name>
+    <name>vdt2024</name>
     <snippet>
         <connections>
             <id>1e2eb882-7b74-3d02-0000-000000000000</id>
@@ -836,5 +836,5 @@
             <type>org.apache.nifi.processors.parquet.PutParquet</type>
         </processors>
     </snippet>
-    <timestamp>06/15/2024 11:33:17 UTC</timestamp>
+    <timestamp>06/15/2024 11:32:42 UTC</timestamp>
 </template>

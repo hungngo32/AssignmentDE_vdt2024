@@ -1,0 +1,15 @@
+cài pyarrow
+
+Thực thi job spark
+docker-compose exec spark ./spark/bin/spark-submit --master spark://spark:7077 /code/src.py
+---
+Setup môi trường
+
+apk update  # If you're using Alpine Linux
+apk add wget build-base  # Install necessary build tools
+apk add --no-cache python3-dev libstdc++ && \
+    apk add --no-cache g++ && \
+    ln -s /usr/include/locale.h /usr/include/xlocale.h && \
+    pip3 install numpy && \
+    pip3 install pandas
+    /opt/nifi/data/core-site.xml,/opt/nifi/data/hdfs-site.xml
